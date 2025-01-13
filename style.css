@@ -150,3 +150,12 @@ a, .hero p {
 .CTA-text {
   color: #E5E7EB;
 }
+
+/* footer section */
+
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 24px 0;
+}
