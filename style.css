@@ -25,7 +25,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 150px;
+  padding: 12px 150px;
 }
 
 .header-logo {
@@ -38,6 +38,8 @@ button {
   display: flex;
   list-style-type: none;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 a, .hero p {
@@ -99,7 +101,7 @@ a, .hero p {
 }
 
 .info-image {
-  height: 150px;
+  height: 146px;
   border: #3882F6 3px solid;
   border-radius: 8px;
   margin-bottom: 8px;
@@ -130,6 +132,7 @@ a, .hero p {
 .CTA-modal {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #3882F6;
   margin: 50px 150px;
   padding: 24px 50px;
@@ -138,6 +141,7 @@ a, .hero p {
 
 .CTA-modal button {
   border: #F9FAF8 1px solid;
+  flex-shrink: 0;
 }
 
 .CTA-header {
