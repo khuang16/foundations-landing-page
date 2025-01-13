@@ -1,0 +1,52 @@
+/* general formatting */
+
+body {
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 4px 16px;
+  border-radius: 4px;
+}
+
+/* header section */
+
+.header, .hero {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 0 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-links {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* hero section */
+
+.hero {
+  display: flex;
+}
